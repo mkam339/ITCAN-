@@ -1,0 +1,257 @@
+// All static data extracted from original site, fully preserved.
+
+export const WHATSAPP_NUMBER = "966563036134";
+export const PHONE_DISPLAY = "0563036134";
+export const STORE_URL = "https://itcan.store/";
+
+export const CURRENCIES = {
+  SAR: { symbol: "ر.س", rate: 1, flag: "🇸🇦", name: "ريال سعودي" },
+  USD: { symbol: "$", rate: 0.27, flag: "🇺🇸", name: "دولار" },
+  EUR: { symbol: "€", rate: 0.25, flag: "🇪🇺", name: "يورو" },
+  GBP: { symbol: "£", rate: 0.21, flag: "🇬🇧", name: "إسترليني" },
+  AED: { symbol: "د.إ", rate: 0.98, flag: "🇦🇪", name: "إماراتي" },
+  QAR: { symbol: "ر.ق", rate: 0.97, flag: "🇶🇦", name: "قطري" },
+  KWD: { symbol: "د.ك", rate: 0.082, flag: "🇰🇼", name: "كويتي" },
+  BHD: { symbol: "د.ب", rate: 0.1, flag: "🇧🇭", name: "بحريني" },
+  OMR: { symbol: "ر.ع", rate: 0.1, flag: "🇴🇲", name: "عماني" },
+  EGP: { symbol: "ج.م", rate: 13.2, flag: "🇪🇬", name: "مصري" },
+  TRY: { symbol: "₺", rate: 10.8, flag: "🇹🇷", name: "تركي" },
+  JPY: { symbol: "¥", rate: 39.5, flag: "🇯🇵", name: "ياباني" },
+  CNY: { symbol: "¥", rate: 1.95, flag: "🇨🇳", name: "صيني" },
+  INR: { symbol: "₹", rate: 23.5, flag: "🇮🇳", name: "هندي" },
+  PKR: { symbol: "₨", rate: 76, flag: "🇵🇰", name: "باكستاني" },
+  CAD: { symbol: "C$", rate: 0.37, flag: "🇨🇦", name: "كندي" },
+  AUD: { symbol: "A$", rate: 0.42, flag: "🇦🇺", name: "أسترالي" },
+  CHF: { symbol: "CHF", rate: 0.24, flag: "🇨🇭", name: "سويسري" },
+  JOD: { symbol: "د.أ", rate: 0.19, flag: "🇯🇴", name: "أردني" },
+  IQD: { symbol: "د.ع", rate: 355, flag: "🇮🇶", name: "عراقي" },
+  YER: { symbol: "ر.ي", rate: 67, flag: "🇾🇪", name: "يمني" },
+  LBP: { symbol: "ل.ل", rate: 4100, flag: "🇱🇧", name: "لبناني" },
+  MAD: { symbol: "د.م", rate: 2.7, flag: "🇲🇦", name: "مغربي" },
+  DZD: { symbol: "د.ج", rate: 36, flag: "🇩🇿", name: "جزائري" },
+  TND: { symbol: "د.ت", rate: 0.84, flag: "🇹🇳", name: "تونسي" },
+};
+
+export const CPU_OPTIONS = [
+  { value: "Intel Core i3-12100F", price: 450, brand: "intel", tier: 1 },
+  { value: "Intel Core i3-13100F", price: 520, brand: "intel", tier: 1 },
+  { value: "Intel Core i3-14100F", price: 580, brand: "intel", tier: 1 },
+  { value: "Intel Core i5-12400F", price: 720, brand: "intel", tier: 2 },
+  { value: "Intel Core i5-13400F", price: 780, brand: "intel", tier: 2 },
+  { value: "Intel Core i5-14400F", price: 850, brand: "intel", tier: 2 },
+  { value: "Intel Core i7-12700K", price: 1250, brand: "intel", tier: 3 },
+  { value: "Intel Core i7-13700K", price: 1450, brand: "intel", tier: 3 },
+  { value: "Intel Core i7-14700K", price: 1650, brand: "intel", tier: 3 },
+  { value: "Intel Core i9-12900K", price: 1800, brand: "intel", tier: 4 },
+  { value: "Intel Core i9-13900K", price: 2050, brand: "intel", tier: 4 },
+  { value: "Intel Core i9-14900K", price: 2300, brand: "intel", tier: 4 },
+  { value: "AMD Ryzen 5 5600X", price: 650, brand: "amd", tier: 2 },
+  { value: "AMD Ryzen 5 7600X", price: 950, brand: "amd", tier: 2 },
+  { value: "AMD Ryzen 7 5800X", price: 1100, brand: "amd", tier: 3 },
+  { value: "AMD Ryzen 7 7700X", price: 1400, brand: "amd", tier: 3 },
+  { value: "AMD Ryzen 7 7800X3D", price: 1700, brand: "amd", tier: 3 },
+  { value: "AMD Ryzen 9 5900X", price: 1600, brand: "amd", tier: 4 },
+  { value: "AMD Ryzen 9 7950X", price: 2100, brand: "amd", tier: 4 },
+];
+
+export const GPU_OPTIONS = [
+  { value: "GTX 1650 4GB", price: 650, brand: "nvidia", fans: 2 },
+  { value: "GTX 1660 6GB", price: 800, brand: "nvidia", fans: 2 },
+  { value: "RTX 2060 6GB", price: 900, brand: "nvidia", fans: 2 },
+  { value: "RTX 3050 8GB", price: 900, brand: "nvidia", fans: 2 },
+  { value: "RTX 3060 12GB", price: 1200, brand: "nvidia", fans: 2 },
+  { value: "RTX 3060 Ti 8GB", price: 1500, brand: "nvidia", fans: 2 },
+  { value: "RTX 3070 8GB", price: 2000, brand: "nvidia", fans: 3 },
+  { value: "RTX 3070 Ti 8GB", price: 2300, brand: "nvidia", fans: 3 },
+  { value: "RTX 3080 10GB", price: 2800, brand: "nvidia", fans: 3 },
+  { value: "RTX 3080 Ti 12GB", price: 3300, brand: "nvidia", fans: 3 },
+  { value: "RTX 3090 24GB", price: 4200, brand: "nvidia", fans: 3 },
+  { value: "RTX 4060 8GB", price: 1300, brand: "nvidia", fans: 2 },
+  { value: "RTX 4060 Ti 8GB", price: 1600, brand: "nvidia", fans: 2 },
+  { value: "RTX 4070 12GB", price: 2400, brand: "nvidia", fans: 3 },
+  { value: "RTX 4070 Super 12GB", price: 2750, brand: "nvidia", fans: 3 },
+  { value: "RTX 4070 Ti 12GB", price: 3200, brand: "nvidia", fans: 3 },
+  { value: "RTX 4080 16GB", price: 4200, brand: "nvidia", fans: 3 },
+  { value: "RTX 4080 Super 16GB", price: 4600, brand: "nvidia", fans: 3 },
+  { value: "RTX 4090 24GB", price: 8900, brand: "nvidia", fans: 3 },
+  { value: "RX 6600 8GB", price: 950, brand: "amd", fans: 2 },
+  { value: "RX 6600 XT 8GB", price: 1100, brand: "amd", fans: 2 },
+  { value: "RX 6700 XT 12GB", price: 1400, brand: "amd", fans: 2 },
+  { value: "RX 6800 16GB", price: 1800, brand: "amd", fans: 3 },
+  { value: "RX 6800 XT 16GB", price: 2200, brand: "amd", fans: 3 },
+  { value: "RX 6900 XT 16GB", price: 2600, brand: "amd", fans: 3 },
+  { value: "RX 7600 8GB", price: 1200, brand: "amd", fans: 2 },
+  { value: "RX 7700 XT 12GB", price: 1900, brand: "amd", fans: 3 },
+  { value: "RX 7800 XT 16GB", price: 2800, brand: "amd", fans: 3 },
+  { value: "RX 7900 GRE 16GB", price: 3200, brand: "amd", fans: 3 },
+  { value: "RX 7900 XT 20GB", price: 3800, brand: "amd", fans: 3 },
+  { value: "RX 7900 XTX 24GB", price: 4500, brand: "amd", fans: 3 },
+];
+
+export const RAM_OPTIONS = [
+  { value: "8GB DDR4 3200MHz", price: 150, sticks: 1, color: "#22c55e", gen: "DDR4" },
+  { value: "16GB DDR4 3200MHz", price: 250, sticks: 2, color: "#22c55e", gen: "DDR4" },
+  { value: "32GB DDR4 3600MHz", price: 450, sticks: 2, color: "#16a34a", gen: "DDR4" },
+  { value: "16GB DDR5 5200MHz", price: 300, sticks: 2, color: "#3b82f6", gen: "DDR5" },
+  { value: "32GB DDR5 6000MHz", price: 580, sticks: 2, color: "#2563eb", gen: "DDR5" },
+  { value: "64GB DDR5 6000MHz", price: 1100, sticks: 4, color: "#1d4ed8", gen: "DDR5" },
+  { value: "128GB DDR5 5600MHz", price: 2200, sticks: 4, color: "#a855f7", gen: "DDR5" },
+];
+
+export const SSD_OPTIONS = [
+  { value: "256GB NVMe M.2", price: 120, size: 256 },
+  { value: "500GB NVMe M.2", price: 180, size: 500 },
+  { value: "1TB NVMe M.2", price: 320, size: 1000 },
+  { value: "2TB NVMe M.2", price: 600, size: 2000 },
+  { value: "3TB NVMe M.2", price: 1000, size: 3000 },
+];
+
+export const COOLER_OPTIONS = [
+  { value: "NZXT Kraken 360mm", price: 850, type: "liquid360" },
+  { value: "NZXT Kraken 240mm", price: 550, type: "liquid240" },
+  { value: "Cooler Master 240mm", price: 380, type: "liquid240" },
+  { value: "Cooler Master 360mm", price: 550, type: "liquid360" },
+  { value: "DeepCool AG400", price: 110, type: "air" },
+  { value: "DeepCool AK620", price: 220, type: "air" },
+  { value: "Noctua NH-D15", price: 450, type: "air" },
+  { value: "Noctua NH-U12A", price: 320, type: "air" },
+];
+
+// 16 cases including ITCAN catalog from user images
+export const CASE_OPTIONS = [
+  { value: "Penguin Pro Black", price: 420, color: "black", neon: "#00c8ff", image: "/cases/penguin-pro-black.png", style: "wide" },
+  { value: "Penguin Pro White", price: 440, color: "white", neon: "#a855f7", image: "/cases/penguin-pro-white.png", style: "wide" },
+  { value: "Sushi 345 Black", price: 380, color: "black", neon: "#22d3ee", image: "/cases/sushi-345-black.png", style: "cube" },
+  { value: "Sushi 345 White", price: 400, color: "white", neon: "#f0abfc", image: "/cases/sushi-345-white.png", style: "cube" },
+  { value: "Covid 55 Eco Black", price: 350, color: "black", neon: "#d4a843", image: "/cases/covid-55-eco-black.png", style: "wide" },
+  { value: "Covid 55 Eco White", price: 370, color: "white", neon: "#d4a843", image: "/cases/covid-55-eco-white.png", style: "wide" },
+  { value: "Striker Black", price: 320, color: "black", neon: "#ec4899", image: "/cases/striker-black.png", style: "tower" },
+  { value: "Striker White", price: 340, color: "white", neon: "#22c55e", image: "/cases/striker-white.png", style: "tower" },
+  { value: "Majesty Barq Black", price: 520, color: "black", neon: "#f59e0b", image: "/cases/majesty-barq-black.png", style: "cube" },
+  { value: "Majesty Barq White", price: 540, color: "white", neon: "#a855f7", image: "/cases/majesty-barq-white.png", style: "cube" },
+  { value: "Majesty X-Space Black", price: 580, color: "black", neon: "#06b6d4", image: "/cases/majesty-xspace-black.png", style: "panoramic" },
+  { value: "Majesty X-Space White", price: 600, color: "white", neon: "#ec4899", image: "/cases/majesty-xspace-white.png", style: "panoramic" },
+  { value: "Midnight Black", price: 490, color: "black", neon: "#ef4444", image: "/cases/midnight-black.png", style: "panoramic" },
+  { value: "Artic White", price: 510, color: "white", neon: "#a855f7", image: "/cases/artic-white.png", style: "panoramic" },
+  { value: "TFT418 Pro Black", price: 690, color: "black", neon: "#00c8ff", image: "/cases/tft418-pro-black.png", style: "premium" },
+  { value: "TFT418 Pro White", price: 720, color: "white", neon: "#22d3ee", image: "/cases/tft418-pro-white.png", style: "premium" },
+];
+
+export const PSU_OPTIONS = [
+  { value: "550W 80+ Bronze", price: 220, watt: 550 },
+  { value: "650W 80+ Gold", price: 320, watt: 650 },
+  { value: "750W 80+ Gold", price: 420, watt: 750 },
+  { value: "850W 80+ Gold", price: 520, watt: 850 },
+  { value: "1000W 80+ Platinum", price: 780, watt: 1000 },
+  { value: "1200W 80+ Platinum", price: 980, watt: 1200 },
+];
+
+export const MOBO_OPTIONS = [
+  { value: "B660M (Intel)", price: 380, brand: "intel" },
+  { value: "B760M (Intel)", price: 480, brand: "intel" },
+  { value: "Z690 (Intel)", price: 780, brand: "intel" },
+  { value: "Z790 (Intel)", price: 880, brand: "intel" },
+  { value: "B550 (AMD AM4)", price: 380, brand: "amd" },
+  { value: "X570 (AMD AM4)", price: 680, brand: "amd" },
+  { value: "B650 (AMD AM5)", price: 580, brand: "amd" },
+  { value: "X670 (AMD AM5)", price: 880, brand: "amd" },
+];
+
+export const PREBUILT_PCS = [
+  {
+    id: "ultra_economy",
+    name: "تجميعة إتقان الأساسية",
+    price: 1550,
+    budgetMin: 1000,
+    budgetMax: 2000,
+    details: "GTX 1650 4GB | Intel i3-12100F | 8GB DDR4 | 256GB NVMe SSD",
+    warranty: "18 شهراً",
+    tier: "economy",
+    accent: "#22c55e",
+    parts: {
+      cpu: "Intel Core i3-12100F",
+      gpu: "GTX 1650 4GB",
+      ram: "8GB DDR4 3200MHz",
+      ssd: "256GB NVMe M.2",
+      case: "Striker Black",
+      cooler: "DeepCool AG400",
+    },
+  },
+  {
+    id: "economy",
+    name: "تجميعة إتقان الاقتصادية",
+    price: 3320,
+    budgetMin: 2500,
+    budgetMax: 4000,
+    details: "RTX 4060 8GB | Intel i5-14400F | 16GB DDR5 | 1TB NVMe SSD",
+    warranty: "18 شهراً",
+    tier: "balanced",
+    accent: "#00c8ff",
+    parts: {
+      cpu: "Intel Core i5-14400F",
+      gpu: "RTX 4060 8GB",
+      ram: "16GB DDR5 5200MHz",
+      ssd: "1TB NVMe M.2",
+      case: "Sushi 345 Black",
+      cooler: "DeepCool AK620",
+    },
+  },
+  {
+    id: "advanced",
+    name: "تجميعة إتقان الاحترافية الفائقة",
+    price: 6430,
+    budgetMin: 5000,
+    budgetMax: 8000,
+    details: "RTX 4070 Super 12GB | Ryzen 7 7800X3D | 32GB DDR5 6000MHz | 2TB NVMe SSD",
+    warranty: "18 شهراً",
+    tier: "pro",
+    accent: "#a855f7",
+    parts: {
+      cpu: "AMD Ryzen 7 7800X3D",
+      gpu: "RTX 4070 Super 12GB",
+      ram: "32GB DDR5 6000MHz",
+      ssd: "2TB NVMe M.2",
+      case: "Majesty Barq Black",
+      cooler: "NZXT Kraken 240mm",
+    },
+  },
+  {
+    id: "premium",
+    name: "تجميعة إتقان الأسطورية",
+    price: 13800,
+    budgetMin: 10000,
+    budgetMax: 50000,
+    details: "RTX 4090 24GB | Intel i9-14900K | 64GB DDR5 | 3TB NVMe SSD | تبريد 360mm",
+    warranty: "18 شهراً",
+    tier: "legend",
+    accent: "#d4a843",
+    parts: {
+      cpu: "Intel Core i9-14900K",
+      gpu: "RTX 4090 24GB",
+      ram: "64GB DDR5 6000MHz",
+      ssd: "3TB NVMe M.2",
+      case: "TFT418 Pro Black",
+      cooler: "NZXT Kraken 360mm",
+    },
+  },
+];
+
+export const PARTS_META = {
+  cpu: { label: "المعالج", icon: "fa-microchip", options: CPU_OPTIONS },
+  mobo: { label: "اللوحة الأم", icon: "fa-network-wired", options: MOBO_OPTIONS },
+  gpu: { label: "كرت الشاشة", icon: "fa-bolt", options: GPU_OPTIONS },
+  ram: { label: "الرامات", icon: "fa-memory", options: RAM_OPTIONS },
+  ssd: { label: "التخزين SSD", icon: "fa-hard-drive", options: SSD_OPTIONS },
+  cooler: { label: "التبريد", icon: "fa-snowflake", options: COOLER_OPTIONS },
+  psu: { label: "مزود الطاقة", icon: "fa-plug", options: PSU_OPTIONS },
+  case: { label: "الكيسة", icon: "fa-box", options: CASE_OPTIONS },
+};
+
+export const QUICK_CHAT_TAGS = [
+  "اقترح لي تجميعة بميزانية 4000 ريال",
+  "ما الفرق بين RTX 4060 و RTX 4070؟",
+  "هل DDR5 أفضل من DDR4 للألعاب؟",
+  "ما هو أفضل معالج لتصميم الجرافيك؟",
+  "كم وحدة قدرة أحتاج لـ RTX 4090؟",
+  "تبريد مائي أم هوائي؟",
+];
